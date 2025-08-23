@@ -75,3 +75,6 @@ js-practice/
         ├── mini-apps/           # маленькі інтерактивні проєкти
         ├── games/               # невеликі ігри
         └── utilities/           # корисні скрипти та інструменти
+
+
+![Preview image](image.png)
