@@ -19,50 +19,59 @@
 ```bash
 js-practice/
 │
-├── basic/
-│   ├── variables/
-│   ├── operators/
-│   ├── loops/
-│   └── functions/           # прості функції
+├── basic/                       # Базові завдання
+│   ├── variables/               # Змінні (усі задачі тут)
+│   ├── operators/               # Оператори (усі задачі тут)
+│   ├── loops/                   # Цикли
+│   │   ├── for/                 # простий for
+│   │   ├── while/               # while
+│   │   ├── do-while/            # do-while
+│   │   ├── break-continue/      # приклади break/continue
+│   │   └── nested/              # вкладені цикли
+│   │
+│   └── functions/               # Прості функції (усі задачі тут)
 │
-├── intermediate/
+├── intermediate/                # Середній рівень
 │   ├── arrays/
-│   │   ├── basics/          # створення, перебір, методи push/pop
-│   │   ├── advanced/        # map, filter, reduce
-│   │   └── multi-dimensional/ # двовимірні масиви
+│   │   ├── basics/              # створення, перебір, push/pop
+│   │   ├── advanced/            # map, filter, reduce
+│   │   ├── multi-dimensional/   # двовимірні масиви
+│   │   └── methods/             # slice, splice, find, some, every
 │   │
 │   ├── objects/
-│   │   ├── basics/          # створення об'єктів, доступ до властивостей
-│   │   ├── nested/          # вкладені об'єкти
-│   │   └── methods/         # методи об'єктів, this
+│   │   ├── basics/              # створення об'єктів, доступ до властивостей
+│   │   ├── nested/              # вкладені об'єкти
+│   │   ├── methods/             # методи об'єктів, this
+│   │   └── destructuring/       # деструктуризація об'єктів
 │   │
 │   ├── dom/
-│   │   ├── selection/       # getElementById, querySelector
-│   │   ├── manipulation/    # зміна елементів, innerHTML, styles
-│   │   └── traversal/       # parent, children, siblings
+│   │   ├── selection/           # getElementById, querySelector
+│   │   ├── manipulation/        # innerHTML, styles, classes
+│   │   ├── traversal/           # parent, children, siblings
+│   │   └── creating-elements/   # createElement, appendChild
 │   │
 │   └── events/
-│       ├── basics/          # addEventListener, onclick
-│       ├── keyboard/        # клавіші, події клавіатури
-│       └── forms/           # події на формах та інпутах
+│       ├── basics/              # addEventListener, onclick
+│       ├── keyboard/            # події клавіатури
+│       ├── mouse/               # click, dblclick, mouseover
+│       └── forms/               # submit, input, change
 │
-└── hard/
+└── hard/                        # Складний рівень
     ├── async/
-    │   ├── promises/
-    │   ├── async-await/
-    │   └── fetch-api/
+    │   ├── promises/            # Promise, chaining
+    │   ├── async-await/         # async/await
+    │   └── fetch-api/           # робота з fetch
     │
     ├── algorithms/
-    │   ├── sorting/         # bubble, quick, merge
-    │   ├── searching/       # binary search, linear search
-    │   └── logic-puzzles/   # задачі на логіку та математику
+    │   ├── sorting/             # bubble, quick, merge
+    │   ├── searching/           # binary search, linear search
+    │   └── logic-puzzles/       # задачі на логіку та математику
     │
     ├── patterns/
-    │   ├── design-patterns/ # singleton, observer, factory
-    │   └── functional/      # high-order functions, closures
+    │   ├── design-patterns/     # singleton, observer, factory
+    │   └── functional/          # high-order functions, closures, currying
     │
     └── projects/
-        ├── mini-apps/       # маленькі інтерактивні проєкти
-        ├── games/           # невеликі ігри
-        └── utilities/       # корисні скрипти та інструменти
-
+        ├── mini-apps/           # маленькі інтерактивні проєкти
+        ├── games/               # невеликі ігри
+        └── utilities/           # корисні скрипти та інструменти
