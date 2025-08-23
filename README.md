@@ -19,62 +19,79 @@
 ```bash
 js-practice/
 │
-├── basic/                       # Базові завдання
-│   ├── variables/               # Змінні (усі задачі тут)
-│   ├── operators/               # Оператори (усі задачі тут)
-│   ├── loops/                   # Цикли
-│   │   ├── for/                 # простий for
-│   │   ├── while/               # while
-│   │   ├── do-while/            # do-while
-│   │   ├── break-continue/      # приклади break/continue
-│   │   └── nested/              # вкладені цикли
+├── basic/                           # Базові завдання
+│   ├── variables/                   # Змінні (усі задачі тут)
+│   ├── operators/                   # Оператори (арифметичні, логічні, порівняння)
+│   ├── loops/                       # Цикли
+│   │   ├── for/                     # простий for
+│   │   ├── while/                   # while
+│   │   ├── do-while/                # do-while
+│   │   ├── break-continue/          # приклади break/continue
+│   │   └── nested/                  # вкладені цикли
 │   │
-│   └── functions/               # Прості функції (усі задачі тут)
+│   └── functions/                   # Прості функції (усі задачі тут)
 │
-├── intermediate/                # Середній рівень
+├── intermediate/                    # Середній рівень
 │   ├── arrays/
-│   │   ├── basics/              # створення, перебір, push/pop
-│   │   ├── advanced/            # map, filter, reduce
-│   │   ├── multi-dimensional/   # двовимірні масиви
-│   │   └── methods/             # slice, splice, find, some, every
+│   │   ├── basics/                  # створення, перебір
+│   │   │   ├── creation/            # [], new Array, Array.of, Array.from
+│   │   │   ├── iteration/           # for, for..of, forEach
+│   │   │   └── push-pop/            # push, pop, shift, unshift
+│   │   │
+│   │   ├── methods/
+│   │   │   ├── slicing/             # slice, splice
+│   │   │   ├── checking/            # includes, some, every
+│   │   │   ├── searching/           # indexOf, lastIndexOf, find
+│   │   │   └── sorting/             # sort, reverse
+│   │   │
+│   │   ├── advanced/
+│   │   │   ├── transformation/      # map, flatMap
+│   │   │   ├── filtering/           # filter
+│   │   │   ├── reduction/           # reduce, reduceRight
+│   │   │   └── chaining/            # комбінування методів
+│   │   │
+│   │   └── multi-dimensional/       # двовимірні масиви
 │   │
 │   ├── objects/
-│   │   ├── basics/              # створення об'єктів, доступ до властивостей
-│   │   ├── nested/              # вкладені об'єкти
-│   │   ├── methods/             # методи об'єктів, this
-│   │   └── destructuring/       # деструктуризація об'єктів
+│   │   ├── basics/                  # створення об'єктів, доступ до властивостей
+│   │   ├── nested/                  # вкладені об'єкти
+│   │   ├── methods/                 # методи об'єктів, this
+│   │   ├── destructuring/           # деструктуризація об'єктів
+│   │   ├── iteration/               # for..in, Object.keys, Object.values, entries
+│   │   └── classes/                 # ES6 класи, наслідування
 │   │
 │   ├── dom/
-│   │   ├── selection/           # getElementById, querySelector
-│   │   ├── manipulation/        # innerHTML, styles, classes
-│   │   ├── traversal/           # parent, children, siblings
-│   │   └── creating-elements/   # createElement, appendChild
+│   │   ├── selection/               # getElementById, querySelector
+│   │   ├── manipulation/            # innerHTML, styles, classes
+│   │   ├── traversal/               # parent, children, siblings
+│   │   └── creating-elements/       # createElement, appendChild
 │   │
 │   └── events/
-│       ├── basics/              # addEventListener, onclick
-│       ├── keyboard/            # події клавіатури
-│       ├── mouse/               # click, dblclick, mouseover
-│       └── forms/               # submit, input, change
+│       ├── basics/                  # addEventListener, onclick
+│       ├── keyboard/                # події клавіатури
+│       ├── mouse/                   # click, dblclick, mouseover
+│       └── forms/                   # submit, input, change
 │
-└── hard/                        # Складний рівень
+└── hard/                            # Складний рівень
     ├── async/
-    │   ├── promises/            # Promise, chaining
-    │   ├── async-await/         # async/await
-    │   └── fetch-api/           # робота з fetch
+    │   ├── promises/                # Promise, chaining
+    │   ├── async-await/             # async/await
+    │   └── fetch-api/               # робота з fetch
     │
     ├── algorithms/
-    │   ├── sorting/             # bubble, quick, merge
-    │   ├── searching/           # binary search, linear search
-    │   └── logic-puzzles/       # задачі на логіку та математику
+    │   ├── sorting/                 # bubble, quick, merge
+    │   ├── searching/               # binary search, linear search
+    │   └── logic-puzzles/           # задачі на логіку та математику
     │
     ├── patterns/
-    │   ├── design-patterns/     # singleton, observer, factory
-    │   └── functional/          # high-order functions, closures, currying
+    │   ├── design-patterns/         # singleton, observer, factory
+    │   └── functional/              # high-order functions, closures, currying
     │
     └── projects/
-        ├── mini-apps/           # маленькі інтерактивні проєкти
-        ├── games/               # невеликі ігри
-        └── utilities/           # корисні скрипти та інструменти
+        ├── mini-apps/               # маленькі інтерактивні проєкти
+        ├── games/                   # невеликі ігри
+        └── utilities/               # корисні скрипти та інструменти
+
 
 ```
 ![Preview image](image.png)
