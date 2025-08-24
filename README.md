@@ -58,19 +58,46 @@ js-practice/
 │   │   ├── methods/                 # методи об'єктів, this
 │   │   ├── destructuring/           # деструктуризація об'єктів
 │   │   ├── iteration/               # for..in, Object.keys, Object.values, entries
-│   │   └── classes/                 # ES6 класи, наслідування
+│   │   ├── comparison/              # порівняння об'єктів, shallow vs deep copy
+│   │   ├── merging-cloning/         # Object.assign, spread, структуроване клонування
+│   │   └── classes/
+│   │       ├── basics/              # оголошення класів, конструктор
+│   │       ├── inheritance/         # extends, super
+│   │       └── static-private/      # static, приватні поля
 │   │
 │   ├── dom/
 │   │   ├── selection/               # getElementById, querySelector
-│   │   ├── manipulation/            # innerHTML, styles, classes
-│   │   ├── traversal/               # parent, children, siblings
-│   │   └── creating-elements/       # createElement, appendChild
+│   │   ├── manipulation/
+│   │   │   ├── content/             # innerHTML, textContent
+│   │   │   ├── attributes/          # setAttribute, getAttribute
+│   │   │   ├── styles/              # style, classList
+│   │   │   └── classes/             # add, remove, toggle
+│   │   │
+│   │   ├── traversal/               # parentElement, children, siblings
+│   │   ├── creating-elements/
+│   │   │   ├── create/              # createElement
+│   │   │   ├── insert/              # append, prepend, insertBefore
+│   │   │   └── remove/              # remove, replaceChild
+│   │   │
+│   │   └── events-binding/          # onClick vs addEventListener
 │   │
 │   └── events/
 │       ├── basics/                  # addEventListener, onclick
-│       ├── keyboard/                # події клавіатури
-│       ├── mouse/                   # click, dblclick, mouseover
-│       └── forms/                   # submit, input, change
+│       ├── keyboard/
+│       │   ├── keydown-keyup/       # події keydown, keyup
+│       │   └── keypress/            # подія keypress (застаріла, для ознайомлення)
+│       │
+│       ├── mouse/
+│       │   ├── clicks/              # click, dblclick
+│       │   ├── movement/            # mouseover, mouseout, mousemove
+│       │   └── buttons/             # mousedown, mouseup, contextmenu
+│       │
+│       ├── forms/
+│       │   ├── input-change/        # input, change
+│       │   ├── submit-reset/        # submit, reset
+│       │   └── focus-blur/          # focus, blur
+│       │
+│       └── other/                   # scroll, resize, load
 │
 └── hard/                            # Складний рівень
     ├── async/
@@ -91,6 +118,7 @@ js-practice/
         ├── mini-apps/               # маленькі інтерактивні проєкти
         ├── games/                   # невеликі ігри
         └── utilities/               # корисні скрипти та інструменти
+
 
 
 ```
