@@ -53,13 +53,38 @@ js-practice/
 │   │   └── multi-dimensional/       # двовимірні масиви
 │   │
 │   ├── objects/
-│   │   ├── basics/                  # створення об'єктів, доступ до властивостей
-│   │   ├── nested/                  # вкладені об'єкти
-│   │   ├── methods/                 # методи об'єктів, this
-│   │   ├── destructuring/           # деструктуризація об'єктів
-│   │   ├── iteration/               # for..in, Object.keys, Object.values, entries
-│   │   ├── comparison/              # порівняння об'єктів, shallow vs deep copy
-│   │   ├── merging-cloning/         # Object.assign, spread, структуроване клонування
+│   │   ├── basics/
+│   │   │   ├── creation/            # літерали, new Object()
+│   │   │   ├── access/              # доступ до властивостей (dot, bracket)
+│   │   │   └── modification/        # додавання/видалення властивостей
+│   │   │
+│   │   ├── nested/
+│   │   │   ├── access/              # доступ до вкладених властивостей
+│   │   │   └── modification/        # зміна вкладених об’єктів
+│   │   │
+│   │   ├── methods/
+│   │   │   ├── custom-methods/      # створення методів у об’єктах
+│   │   │   └── this-keyword/        # робота з this
+│   │   │
+│   │   ├── destructuring/
+│   │   │   ├── basics/              # просте розпакування
+│   │   │   └── nested/              # деструктуризація вкладених об'єктів
+│   │   │
+│   │   ├── iteration/
+│   │   │   ├── for-in/              # цикл for..in
+│   │   │   ├── object-keys/         # Object.keys
+│   │   │   ├── object-values/       # Object.values
+│   │   │   └── object-entries/      # Object.entries
+│   │   │
+│   │   ├── comparison/
+│   │   │   ├── shallow/             # порівняння посилань, ==
+│   │   │   └── deep/                # глибоке порівняння
+│   │   │
+│   │   ├── merging-cloning/
+│   │   │   ├── assign/              # Object.assign
+│   │   │   ├── spread/              # spread operator
+│   │   │   └── structured-clone/    # структуроване клонування
+│   │   │
 │   │   └── classes/
 │   │       ├── basics/              # оголошення класів, конструктор
 │   │       ├── inheritance/         # extends, super
